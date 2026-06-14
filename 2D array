@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int l;
+    int m;
+    cout<<"enter value of rows";
+    cin>>l;
+    cout<<"enter values of column";
+    cin>>m;
+    int arr[l][m];
+
+    for(int i = 0; i<l; i++){
+        for(int j = 0; j<m; j++){
+            cout<<"enter values in 2D array ";
+            cin>>arr[i][j];
+        }
+    }
+    for(int i = 0; i<l; i++){
+        for(int j = 0; j<m; j++){
+            cout<<arr[i][j]<< " ";
+       }
+       cout<<endl;
+    }
+}
